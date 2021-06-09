@@ -1,6 +1,18 @@
 html {
   scroll-behavior: smooth;
 }
+.max-w-6xl,
+#signUp-BG,
+#signIn-BG {
+  background: linear-gradient(to left, white 50%, bisque 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+.max-w-6xl:hover,
+#signUp-BG:hover,
+#signIn-BG:hover {
+  background-position: left;
+}
 
 :focus,
 button:focus,
