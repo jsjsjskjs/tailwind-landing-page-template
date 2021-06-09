@@ -13,8 +13,8 @@ function SignIn() {
       {/*  Page content */}
       <main className="flex-grow">
 
-        <section className="bg-gradient-to-b from-gray-100 to-white" id="signIn-BG">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <section className="bg-gradient-to-b from-gray-100 to-white">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6" id="signIn-BG">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
               {/* Page header */}
